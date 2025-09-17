@@ -1,0 +1,29 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #F5F1E7; /* parchment color */
+  background-color: #4B000F; /* fallback deep maroon */
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Navbar stays on top */
+nav, header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
