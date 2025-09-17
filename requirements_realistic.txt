@@ -1,0 +1,7 @@
+torch
+diffusers
+transformers
+moviepy
+opencv-python
+numpy
+edge-tts
